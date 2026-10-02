@@ -3,6 +3,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  // GitHub Pages publica los proyectos en /<repositorio>/.
+  // En desarrollo local se mantiene la raíz /.
+  base: process.env.GITHUB_ACTIONS ? '/dispatch-platform-demo/' : '/',
   plugins: [react()],
   worker: {
     // El worker de MapLibre es un módulo ES.
