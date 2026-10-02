@@ -1,0 +1,33 @@
+/* Paleta oscura operacional. Interfaz pensada para uso prolongado: bajo brillo y acentos sobrios. */
+:root {
+  color-scheme: dark;
+
+  --bg: #0b0e12;
+  --surface: #11161c;
+  --surface-2: #161d25;
+  --surface-3: #1c2530;
+  --border: #222c37;
+  --border-strong: #2f3b48;
+
+  --text: #d7dee6;
+  --text-strong: #f1f4f7;
+  --muted: #8593a3;
+  --faint: #5c6a79;
+
+  --accent: #f2a33a;
+  --accent-strong: #ffb54d;
+  --accent-ink: #1a1206;
+  --info: #4fb3d9;
+  --ok: #4cc38a;
+  --warn: #e6c34a;
+  --danger: #e5534b;
+
+  --radius: 8px;
+  --radius-sm: 5px;
+  --gap: 12px;
+
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Mono', 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
+
+  --topbar-h: 56px;
+}
